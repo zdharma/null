@@ -1,5 +1,5 @@
 # null
-An empty repository to aid zplugin's hooks-hacks.
+An empty repository to aid zplugin's hooks-hacks. You can fork it to have a private copy of it :)
 
 # Example uses:
 
