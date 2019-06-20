@@ -12,6 +12,6 @@ An empty repository to aid zplugin's hooks-hacks. You can fork it to have a priv
 zplugin ice as"program" pick"$ZPFX/sdkman/bin/sdk" id-as'sdkman' run-atpull \
   atclone"wget https://get.sdkman.io -O scr.sh; SDKMAN_DIR=$ZPFX/sdkman bash scr.sh" \
   atpull"SDKMAN_DIR=$ZPFX/sdkman sdk selfupdate" \
-  atinit"SDKMAN_DIR=$ZPFX/sdkman source $ZPFX/sdkman/bin/sdkman-init.sh"
+  atinit"export SDKMAN_DIR=$ZPFX/sdkman; source $ZPFX/sdkman/bin/sdkman-init.sh"
 zplugin light zdharma/null
 ```
